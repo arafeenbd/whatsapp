@@ -13,11 +13,11 @@ function App() {
 
   return (
     <div className="app">
-        {/* {
+        {
           !user ? (
             <Login/>
           )
-         :( */}
+         :(
           <div className="app__body">
             <Router>
               <Sidebar/>
@@ -32,7 +32,7 @@ function App() {
             </Router>
           </div>
           )
-        {/* } */}
+        }
     </div>
   );
 }
